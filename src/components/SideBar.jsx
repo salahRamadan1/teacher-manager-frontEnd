@@ -32,7 +32,7 @@ export default function SideBar() {
     { text: t("sidebar.students"), icon: <PersonIcon />, path: "/students" },
     { text: t("sidebar.group"), icon: <GroupsIcon />, path: "/Group" },
     { text: t("sidebar.session"), icon: <EventIcon />, path: "/sessions" },
-    { text: t("sidebar.exam"), icon: <AssignmentIcon />, path: "/admin/teachers" },
+ 
   ];
   useEffect(() => {
     // Close the drawer when the user logs out
